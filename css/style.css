@@ -1,0 +1,99 @@
+body{
+	background: #fff;
+	margin: 3%;
+	border: 2px solid black;
+	padding: 10%;
+	padding-top: 5%;
+	font-family: 'Gaegu', cursive;
+}
+h1{
+	color: red;
+	font-size: 3em;
+	font-style: italic;
+	text-align: center;
+}
+h6{
+	color: red;font-family: 'Gaegu', cursive;
+	font-size: 1em;
+}
+thead{
+	background: purple;
+}
+.nav li{
+	float: left;
+	padding: 10px;
+	list-style: none;
+	text-align: center;
+	margin: 30px;
+}
+.nav li:hover{
+			background: violet;
+			border: 1px black solid;}
+tbody tr:hover{
+	background: violet;
+	font-style: italic;
+}
+tbody tr{
+	text-align: center;
+}
+textarea{
+	outline: none;
+	background: #FF8E4F;
+}
+fieldset{
+	font-weight: bold;
+	background: url(../img/tiger.jpg);
+	background-size: cover;
+}
+input[type="submit"]{
+	font-weight: bolder;
+	width: 375px;
+	font-size: 1em;
+	color: red;
+}
+div{
+	text-align: center;
+	font-size: 1em;
+	margin: 0;
+	padding-left: 20%;
+	padding-bottom: 20%;
+	padding-right: 20%;
+	padding-top: 15%;
+	background: url(../img/sam.jpg);
+	background-size: cover;
+	border-radius: 60%;
+	font-weight: bold;
+}
+h6{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin: 20px;
+}
+.adt{
+	color: red;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+button{
+	background: purple;
+	padding: 2px;
+	font-size: 1em;
+	color: white;
+}
+input[type='submit']:hover, button:hover{
+	background: violet;
+	font-weight: bolder;
+	color: yellow;
+}
+h5, h4{
+	text-align: center;
+	color: red;
+	font-size: 1em;
+}
+section{
+	float: left;
+	border: 1px solid black;
+	margin: 30px;
+}
